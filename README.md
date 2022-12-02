@@ -2,6 +2,20 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Tailwindcss
+
+`Created Tailwind CSS config file: tailwind.config.js + Created PostCSS config file: postcss.config.js`
+
+https://tailwindcss.com/docs/installation
+
+## Firebase
+
+`npm install firebase`
+`npm install react-firebase-hooks`
+`npm install react-google-button`
+
+https://firebase.google.com/docs/auth/web/start
+
 ## Available Scripts
 
 In the project directory, you can run:
