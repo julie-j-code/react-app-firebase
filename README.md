@@ -62,6 +62,12 @@ Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
+## For deploying on firebase
+
+https://stacklima.com/comment-deployer-un-projet-react-sur-firebase/
+
+`firebase init`
+
 ## For deploying on gh pages
 
 ### add scripts to package.json
