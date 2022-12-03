@@ -68,6 +68,9 @@ https://stacklima.com/comment-deployer-un-projet-react-sur-firebase/
 
 `firebase init`
 
+`npm install -g serve`
+`serve -s build`
+
 ## For deploying on gh pages
 
 ### add scripts to package.json
