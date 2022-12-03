@@ -62,6 +62,17 @@ Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
+## For deploying on gh pages
+
+### add scripts to package.json
+
+`npm i gh-pages --save`
+
+``
+"build": "react-scripts build",
+"deploy": "gh-pages -d build",
+    ``
+
 ### `npm run eject`
 
 **Note: this is a one-way operation. Once you `eject`, you can't go back!**
