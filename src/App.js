@@ -2,6 +2,7 @@ import { React } from "react";
 import Navbar from "./components/Navbar";
 import { auth } from "./firebase.js";
 import { useAuthState } from "react-firebase-hooks/auth";
+import Chat from "./components/Chat";
 // import logo from './logo.svg';
 
 const style = {
@@ -17,6 +18,7 @@ function App() {
 
       <section className={style.sectionContainer}>
         <Navbar/>
+        <Chat/>
       </section>
 
     </div>

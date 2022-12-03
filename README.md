@@ -16,6 +16,10 @@ https://tailwindcss.com/docs/installation
 
 https://firebase.google.com/docs/auth/web/start
 
+### do remember : 
+
+`import { query, collection, orderBy, onSnapshot } from 'firebase/firestore';`
+
 ## Available Scripts
 
 In the project directory, you can run:
