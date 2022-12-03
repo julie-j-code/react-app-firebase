@@ -67,20 +67,11 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 https://stacklima.com/comment-deployer-un-projet-react-sur-firebase/
 
 `firebase init`
+use build as your folder
+`firebase open hosting: site`
 
 `npm install -g serve`
 `serve -s build`
-
-## For deploying on gh pages
-
-### add scripts to package.json
-
-`npm i gh-pages --save`
-
-``
-"build": "react-scripts build",
-"deploy": "gh-pages -d build",
-    ``
 
 ### `npm run eject`
 
