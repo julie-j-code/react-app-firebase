@@ -18,7 +18,22 @@ https://firebase.google.com/docs/auth/web/start
 
 ### do remember : 
 
-`import { query, collection, orderBy, onSnapshot } from 'firebase/firestore';`
+#### for getting data from collection
+
+`import { query, collection, orderBy, onSnapshot } from 'firebase/firestore'`
+
+#### for sending data to collection
+
+`import {addDoc, collection, serverTimestamp} from 'firebase/firestore'`
+
+as always, with react, on input, we will need to handle event onChange (with hooks useState) :
+`<input value={input} onChange={(e) => setInput(e.target.value)} type='text' placeholder='Message'/>`
+
+together with the onSubmit on form element
+
+`<form onSubmit={sendMessage}>`
+
+++++ the user id of the one who send message has to be the user id of the one who is logged (uid) !!! 
 
 ## Available Scripts
 
